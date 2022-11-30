@@ -83,7 +83,7 @@ def layoverTimeCost(layoverFlightNumber1, layoverFlightNumber2,layoverFlightNumb
     	'X-RapidAPI-Key': "c21cc07c73msh0200b16e9e4a1a7p19a8e0jsnb76c9cc8eaa0",
     	'X-RapidAPI-Host': "aerodatabox.p.rapidapi.com"
     	}
-	conn.request("GET", "/flights/" + layoverFlightNumber2 + "/delays", headers=headers)
+	conn.request("GET", "/flights/" + layoverFlightNumber3 + "/delays", headers=headers)
 	res = conn.getresponse()
 	data = res.read()
 	delayTime3 = data.decode("utf-8")
