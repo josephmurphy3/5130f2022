@@ -1,0 +1,1 @@
+I completed all the python code for my website to run correctly. This was 5 python files ill need with the correct api calls and everything. Now I am focusing on how to incorporate html with the python files and thankfully I have some real world experience from work. I will be using mako templates in order to do it.
