@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>
+   Joseph Murphy Welcome Page
+  </title>
+ </head>
+ <body>
+<h1>
+ Welcome to my site, Here you can compare whether it is better for you to book a direct flight or indirect flight due to total cost and time.
+</h1>
+<h2>
+Please select how many stops your indirect flight has and how much an hour of time is worth to you
+</h2>
+<form method="post" enctype="multipart/form-data" action="selection.py">
+    <fieldset>
+                    <legend>Enter how many layover stops here</legend>
+                    <ol>
+                    <label> Layover Stops </label>
+                                    <select name = "Number of Indirect Stops" required>
+                                                    <option disabled selected value> -- Select amount of stops --</option>
+                                                    <option value = "1"> Layover has 1 Stop</option>
+                                                    <option value = "2"> Layover has 2 Stops</option>
+                                                    <option value = "3"> Layover has 3 Stops</option>
+                                    </select>
+                    </ol>
+                    <input type = "submit" id="upload" value = "Continue"/>
+    </fieldset>
+</form>
+</body>
+</html>
