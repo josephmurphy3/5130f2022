@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<!-- #This code was 100% written by me, Joseph Murphy. Everything I added is my code but for the header/navbar I did use https://www.w3schools.com/css/css_navbar_horizontal.asp as a base and went from there. -->
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="index.html"><img src="website.jpg" alt ="website" width ="100" height="100"></a></li>
+  <li style="float:right"><a href="index.html"><img src="home.png" alt ="home" width ="100" height="100"></a></li>
+</ul>
+<h1>
+ Welcome to my site, Here you can compare whether it is better for you to book a direct flight or indirect flight due to total cost and time.
+</h1>
+<h2>
+Please select how many stops your indirect flight has and how much an hour of time is worth to you
+</h2>
+<form method="post" enctype="multipart/form-data" action="selection.py">
+    <fieldset>
+                    <legend>Enter how many layover stops here</legend>
+                    <ol>
+                    <label> Layover Stops </label>
+                                    <select name = "Number of Indirect Stops" required>
+                                                    <option disabled selected value> -- Select amount of stops --</option>
+                                                    <option value = "1"> Layover has 1 Stop</option>
+                                                    <option value = "2"> Layover has 2 Stops</option>
+                                                    <option value = "3"> Layover has 3 Stops</option>
+                                    </select>
+                    </ol>
+                    <input type = "submit" id="upload" value = "Continue"/>
+    </fieldset>
+</form>
+</body>
+</html>
