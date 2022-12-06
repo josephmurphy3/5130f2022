@@ -1,0 +1,7 @@
+https://weblab.cs.uml.edu/~jmurphy1/
+(Make sure to use weblab url, I had to work with the help desk to configure apache to run python scripts and they only configured weblab to work.)
+
+Once you arrive at my site you have to sleect how many stops your layover has. So if the layover has one indirect stop you would select 1, 2 stops you would select two, and 3 you would select 3.
+Then the next page asks you to enter in information for Direct flight (Direct Flight Number, Direct Time - When the flight leaves, Direct Cost - how much the flight costs)
+and indirect flight infor (Layover Flight Number 1 - Flight number for the first flight, Layover Time 1 - When the first flight leaves, Layover Flight Number 2 - Flight number for the second flight, Layover 2 Time - When the second flight leaves,i.e. and Layover Cost - how much the  layover flights cost totally)
+Then it will inform you whether the best option is direct or layover and if you would like to return home to try out another combo.
